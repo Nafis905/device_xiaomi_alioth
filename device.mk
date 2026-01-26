@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
     libpiex_shim
 
 # Miui Camera
-include device/xiaomi/camera/miuicamera.mk
+$(call inherit-product-if-exists, device/xiaomi/camera/miuicamera.mk)
 
 # Miui Camera STLicense
 PRODUCT_COPY_FILES += \
