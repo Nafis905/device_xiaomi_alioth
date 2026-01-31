@@ -26,6 +26,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Miui Camera
 $(call inherit-product-if-exists, device/xiaomi/camera/miuicamera.mk)
 
