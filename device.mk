@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 # Miui Camera
 $(call inherit-product-if-exists, device/xiaomi/camera/miuicamera.mk)
 
