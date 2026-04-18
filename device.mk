@@ -26,6 +26,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Init
 $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_alioth)
 
