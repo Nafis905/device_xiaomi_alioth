@@ -8,3 +8,8 @@ git clone https://github.com/Nafis905/vendor_xiaomi_alioth.git -b 16.2  vendor/x
 git clone https://github.com/Nafis905/vendor_xiaomi_sm8250-common.git -b 16.2  vendor/xiaomi/sm8250-common
 git clone https://github.com/Nafis905/hardware_xiaomi.git -b lineage-23.2 hardware/xiaomi
 git clone https://github.com/PocoF3Releases/kernel_xiaomi_sm8250.git -b aosp-16 --depth=1 kernel/xiaomi/sm8250
+
+#packages
+git clone https://github.com/PocoF3Releases/device_xiaomi_camera.git -b aosp-16 device/xiaomi/camera
+git clone https://gitlab.com/johnmart19/vendor_xiaomi_camera.git -b aosp-16 vendor/xiaomi/camera
+git clone https://github.com/Nafis905/packages_apps_GameBar.git -b lineage-23.2 packages/apps/GameBar
