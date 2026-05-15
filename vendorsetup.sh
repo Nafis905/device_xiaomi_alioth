@@ -13,3 +13,5 @@ git clone https://github.com/PocoF3Releases/kernel_xiaomi_sm8250.git -b aosp-16 
 git clone https://github.com/PocoF3Releases/device_xiaomi_camera.git -b aosp-16 device/xiaomi/camera
 git clone https://gitlab.com/johnmart19/vendor_xiaomi_camera.git -b aosp-16 vendor/xiaomi/camera
 git clone https://github.com/Nafis905/packages_apps_GameBar.git -b lineage-23.2 packages/apps/GameBar
+git clone https://github.com/swiitch-OFF-Lab/hardware_dolby.git -b sony-1.5 hardware/dolby
+git clone https://github.com/swiitch-OFF-Lab/packages_apps_DolbyUI.git -b 16.0 packages/apps/DolbyUI

@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
     LineageDialerOverlayDevice \
     LineageSettingsOverlayDevice \
     LineageSystemUIOverlayDevice \
+    LunarisDolby \
     SystemUIOverlayDevice
 
 # Shipping API level
