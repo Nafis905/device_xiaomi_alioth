@@ -9,16 +9,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/hertzify/config/common_full_phone.mk)
 
 # Inherit Camera-related flags
 TARGET_USES_MIUI_CAMERA := true
 TARGET_INCLUDES_MIUI_CAMERA := true
 
+# Hertzify build flag
+TARGET_BOOT_ANIMATION_RES := 1080
+HERTZIFY_BUILD_TYPE := UNOFFICIAL
+HERTZIFY_MAINTAINER := 𝙽𝚊𝚏𝚒𝚜
+
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-PRODUCT_NAME := lineage_alioth
+PRODUCT_NAME := hertzify_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
